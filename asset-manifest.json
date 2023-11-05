@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Guide-test/static/css/main.cb57063c.css",
+    "main.js": "/Guide-test/static/js/main.f974d861.js",
+    "index.html": "/Guide-test/index.html",
+    "main.cb57063c.css.map": "/Guide-test/static/css/main.cb57063c.css.map",
+    "main.f974d861.js.map": "/Guide-test/static/js/main.f974d861.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb57063c.css",
+    "static/js/main.f974d861.js"
+  ]
+}
