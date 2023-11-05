@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+form h1{
+    padding: 0;
+    color: beige;
+}
+/* .piechart{
+    width:auto;
+    height: 600px;
+} */
+.response-data{
+    text-align: center;
+    color: #fff;
+}
+.json-container {
+    font-size: 1.15rem;
+}
+.questions{
+    display: none;
+}
+.questions.active{
+    padding-left: .75rem;
+    padding-right: .75rem;
+    width: 80%;
+    min-height: 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:#fff; */
+    border-radius: 20px;
+}
+.home{
+    all: unset;
+    background: aqua;
+    width: 100px;
+    padding: 4px;
+    color: #fff;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right:10px ;
+}
+.head{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    width: 80%;
+    font-weight: bolder;
+    color: #fff;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%; 
+  gap: 10px; 
+  padding-top: 4px;
+  list-style: none;
+  color: #fff;
+  /* background-color:rgb(227, 211, 241); */
+  border-radius: 20px;
+  /* box-shadow: 4px -16px rgb(186, 126, 239); */
+}
+input[type="radio"] {
+    display: none;
+}
+.answer{
+    /* background-color: aqua; */
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+span {
+    min-width: 20rem;
+    width: 30rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+span.selected {
+    background-color: seagreen; /* Change the background color when selected */
+  }
+.but{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 16%;
+}
+button{
+    display: none;
+}
+button.active{
+    all: unset;
+    display: block;
+    background-color: rgb(208, 79, 199);
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    color: #fff;
+    padding-bottom: 2px;
+    
+}
+#root{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    background: linear-gradient(135deg, #27326A 15%, rgb(25, 25, 25), rgb(115, 21, 182), seagreen);
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+}
+
+@media only screen and (max-width: 550px) {
+    .json-container {
+        font-size: .80rem;
+    }
+  }
